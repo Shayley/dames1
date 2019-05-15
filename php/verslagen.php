@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Dames 1</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -14,7 +15,7 @@
     <header>
     <nav class="navbar">
       <div class="logo">
-        LOGO
+        <img src="../images/heerdelogo.png">
       </div>
       <div class="sitenavigation">
         <span class="menu-icon">
@@ -33,20 +34,14 @@
               <li><a href="#">Oudere</a></li>
             </ul>
           </li>
-          <li class="nav-dropdown"><a href="#">Account</a>
-            <ul>
-              <li><a href="#">Log in</a></li>
-              <li class="nav-dropdown"><a href="#">Profiel</a>
-                <ul>
-                  <li><a href="#">Wijzig foto</a></li>
-                  <li><a href="#">Wijzig informatie</a></li>
-                </ul>
-                </li>
-            </ul>
-            </li>
-            <li class="nav-dropdown"><a href="standen.php">Standen</a>
+            <li class="nav-dropdown"><a href="standen.php">Wedstrijden</a>
               <ul>
-                <li><a href="#">Laatste wedstrijden</a></li>
+                <li class="nav-dropdown"><a href="#">Wedstrijden</a>
+                  <ul>
+                    <li><a href="#">Aankomend</a></li>
+                    <li><a href="#">Laatste</a></li>
+                  </ul>
+                </li>
                 <li class="nav-dropdown"><a href="#">Stand Heerde</a>
                   <ul>
                     <li><a href="#">Alle standen</a></li>
@@ -55,6 +50,7 @@
               </ul>
             </li>
             <li><a href="spelers.php">Spelers</a></li>
+            <li><a href="contact.php">Contact</a></li>
             <li><a href="https://clubs.deventrade.com/nl/vv-heerde">Webshop Heerde</a></li>
         </ul>
       </div>
@@ -73,7 +69,7 @@
     <h3 class="headn">Recente verslagen</h3>
 
     <article>
-      <a target="_blank" href="verslagen.php">
+      <a target="_blank" href="../verslagen/verslag1.php">
         <div class="postImg">
           <img src="../images/verslag1.jpg" />
         </div>

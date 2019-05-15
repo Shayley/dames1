@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Dames 1</title>
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -14,7 +15,6 @@
     <header>
     <nav class="navbar">
       <div class="logo">
-        <img src="../images/heerdelogo.png">
       </div>
       <div class="sitenavigation">
         <span class="menu-icon">
@@ -87,7 +87,7 @@
   </div>
 
     <article>
-      <a target="_blank" href="verslagen.php">
+      <a target="_blank" href="../verslagen/verslag1.php">
         <div class="postImg">
           <img src="../images/verslag1.jpg" />
         </div>

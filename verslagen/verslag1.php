@@ -27,14 +27,14 @@
         </div>
         </span>
         <ul>
-          <li><a href="index.php">Home</a></li>
-          <li class="nav-dropdown"><a href="verslagen.php">Verslagen</a>
+          <li><a href="../php/index.php">Home</a></li>
+          <li class="nav-dropdown"><a href="../php/verslagen.php">Verslagen</a>
             <ul>
               <li><a href="#">Recent</a></li>
               <li><a href="#">Oudere</a></li>
             </ul>
           </li>
-            <li class="nav-dropdown"><a href="standen.php">Wedstrijden</a>
+            <li class="nav-dropdown"><a href="../php/standen.php">Wedstrijden</a>
               <ul>
                 <li class="nav-dropdown"><a href="#">Wedstrijden</a>
                   <ul>
@@ -49,8 +49,8 @@
                 </li>
               </ul>
             </li>
-            <li><a href="spelers.php">Spelers</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="../php/spelers.php">Spelers</a></li>
+            <li><a href="../php/contact.php">Contact</a></li>
             <li><a href="https://clubs.deventrade.com/nl/vv-heerde">Webshop Heerde</a></li>
         </ul>
       </div>
@@ -65,6 +65,32 @@
         </div>
       </div>
     </section>
+
+    <article class="article">
+    <header class="header">
+      <h1 class="headline">
+        De heerder dames voetballen tegen HHC
+      </h1>
+      <div class="meta">
+        <span class="author">Door: <span class="author-name">Daphne Bosch</span></span>
+        <br>
+        <span class="pub-date">Geplaatst op: 16 mei, 2019</span>
+      </div>
+    </header>
+    <br>
+
+    <p>A pancake is a flat cake, often thin, and round, prepared from a starch-based batter that may also contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often with oil or butter. In Britain, pancakes are often unleavened,
+      and resemble a crêpe. In North America, a raising agent is used (typically baking powder). The North American pancake is similar to a Scotch pancake or drop scone. Commercially prepared pancake mixes are produced in some countries.</p>
+
+    <p>They may be served at any time with a variety of toppings or fillings including jam, fruit, syrup, chocolate chips, or meat. In America, they are typically considered to be a breakfast food. In Britain and the Commonwealth, they are associated with
+      Shrove Tuesday, commonly known as Pancake Day, when perishable ingredients had to be used up before the fasting period of Lent began.</p>
+
+    <p>Archaeological evidence suggests that pancakes are probably the earliest and most widespread cereal food eaten in prehistoric societies.<sup>[1]</sup> The pancake's shape and structure varies worldwide. A crêpe is a thin Breton pancake cooked on one or both sides
+      in a special pan or crepe maker to achieve a lacelike network of fine bubbles. A well-known variation originating in Southeast Europe is Palačinke, a thin moist pancake fried on both sides and filled with jam, cheese cream, chocolate, or ground walnuts,
+      but many other fillings, both sweet or savory, can also be used.</p>
+
+      <img src="https://via.placeholder.com/900x400">
+  </article>
 
     <footer>
     <div class="footerstyle">
