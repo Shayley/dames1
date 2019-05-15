@@ -26,8 +26,8 @@
         </div>
         </span>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li class="nav-dropdown"><a href="#">Verslagen</a>
+          <li><a href="index.php">Home</a></li>
+          <li class="nav-dropdown"><a href="verslagen.php">Verslagen</a>
             <ul>
               <li><a href="#">Recent</a></li>
               <li><a href="#">Oudere</a></li>
@@ -44,7 +44,7 @@
                 </li>
             </ul>
             </li>
-            <li class="nav-dropdown"><a href="#">Standen</a>
+            <li class="nav-dropdown"><a href="standen.php">Standen</a>
               <ul>
                 <li><a href="#">Laatste wedstrijden</a></li>
                 <li class="nav-dropdown"><a href="#">Stand Heerde</a>
@@ -54,8 +54,8 @@
                 </li>
               </ul>
             </li>
-            <li><a href="#">Spelers</a></li>
-            <li><a href="#">Webshop Heerde</a></li>
+            <li><a href="spelers.php">Spelers</a></li>
+            <li><a href="https://clubs.deventrade.com/nl/vv-heerde">Webshop Heerde</a></li>
         </ul>
       </div>
     </nav>
@@ -69,44 +69,6 @@
         </div>
       </div>
     </section>
-
-    <div class="el1">
-      <div class="container">
-        <div class="row" style="font-size: 20px;">
-          <div class="col-xs-3 .col-sm-3">
-            <div class="card h-100">
-              <h4 class="card-header"><i class="far fa-futbol" style="font-size: 80px"></i><br><br>
-                Wedstrijden: 13</h4>
-              <div class="card-body">
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-3 .col-sm-3">
-            <div class="card h-100">
-              <h4 class="card-header"><i class="fas fa-tshirt" style="font-size: 80px;"></i></i><br><br>
-              Spelers: 11</h4>
-            </div>
-          </div>
-          <div class="col-xs-3 .col-sm-3">
-            <div class="card h-100">
-              <h4 class="card-header"><i class="fas fa-calendar-week" style="font-size: 80px"></i><br><br>
-              Evenement: /</h4>
-              <div class="card-body">
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-3 .col-sm-3">
-            <div class="card h-100">
-              <h4 class="card-header"><i class="fas fa-trophy" style="font-size: 80px"></i><br><br>
-              Stand: 12de</h4>
-              <div class="card-body">
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-  </div>
 
     <footer>
     <div class="footerstyle">
@@ -142,6 +104,7 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="../js/toggle.js"></script>
+  <script src="../js/standings.js"></script>
 
   </body>
 </html>
