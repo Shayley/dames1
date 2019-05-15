@@ -15,6 +15,7 @@
     <header>
     <nav class="navbar">
       <div class="logo">
+        <img src="../images/heerdelogo.png">
       </div>
       <div class="sitenavigation">
         <span class="menu-icon">
